@@ -13,7 +13,7 @@ Syntax: `ax.associate_key <key>`
 Associates an existing key with the current client session.
 When the client disconnects they key gets automatically deleted.
 
-If the key is alreayd associated with a client, this association gets transfered
+If the key is already associated with a client, this association gets transferred
 to the current client calling the command.
 
 If the key gets deleted / expired/ evicted the association is automaticlly cleared.
@@ -36,10 +36,10 @@ cmake -DCMAKE_BUILD_TYPE=Release ../
 make ax_redis_auto_del
 ```
 
-After that you got a file called `libax_redis_auto_del.so`.
+After that, you got a file called `libax_redis_auto_del.so`.
 
 # Installing
 
-Install the build module via adding the folling line into the redis config file:
+Install the module via adding the folling line into the redis config file:
 
 `loadmodule <folder>/libax_redis_auto_del.so`
