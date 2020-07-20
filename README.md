@@ -26,7 +26,10 @@ If the key gets deleted / expired/ evicted the association is automaticlly clear
 # Building
 
 ```
+git submodule init
+git submodule update
 mkdir build
+cd build
 cmake -DCMAKE_BUILD_TYPE=Release ../
 make ax_redis_auto_del
 ```
