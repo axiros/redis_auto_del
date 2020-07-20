@@ -41,4 +41,5 @@ After that you got a file called `libax_redis_auto_del.so`.
 # Installing
 
 Install the build module via adding the folling line into the redis config file:
+
 `loadmodule <folder>/libax_redis_auto_del.so`
