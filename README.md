@@ -6,7 +6,9 @@ client disconnects.
 
 # Commands
 
-## ax.associate_key <key>
+## ax.associate_key
+
+Syntax: `ax.associate_key <key>`
 
 Associates an existing key with the current client session.
 When the client disconnects they key gets automatically deleted.
